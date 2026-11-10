@@ -172,6 +172,7 @@ namespace TaskTracker.UI
             Console.WriteLine("1. New");
             Console.WriteLine("2. InProgress");
             Console.WriteLine("3. Done");
+            Console.WriteLine("4. Cancelled");
             Console.Write("Выберите: ");
 
             string statusInput = Console.ReadLine();
