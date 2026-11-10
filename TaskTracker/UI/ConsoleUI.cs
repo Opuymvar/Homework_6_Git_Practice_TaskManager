@@ -184,6 +184,7 @@ namespace TaskTracker.UI
                     case 1: taskService.ChangeStatus(id, TaskStatus.New); break;
                     case 2: taskService.ChangeStatus(id, TaskStatus.InProgress); break;
                     case 3: taskService.ChangeStatus(id, TaskStatus.Done); break;
+                    case 4: taskService.ChangeStatus(id, TaskStatus.Cancelled); break;
                     default: Console.WriteLine("Неверный выбор."); return;
                 }
                 Console.WriteLine("Статус изменён.");
